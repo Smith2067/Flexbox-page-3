@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(255, 210, 221);
+    color: rgb(74, 104, 112);
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#everything{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    margin-top: 50px;
+    border-color: rgb(74, 104, 112);
+    border-radius: 8px;
+}
+#image2{
+    margin-top: 0px;
+}
+.text{
+    width: 300px;
+    height: 400px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 940px) {
+    #everything{
+        flex-direction: column;
+    }
+    .image{
+        margin-top: 0px;
+    }
+}
